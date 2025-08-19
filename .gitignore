@@ -1,0 +1,31 @@
+# Build outputs
+dist/
+*.d.ts.map
+
+# Dependencies
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Logs
+*.log
+
+# Environment files
+.env*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Rollup cache
+.rollup.cache/
+
+# Package files
+*.tgz

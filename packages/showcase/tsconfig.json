@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable", "ES6"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "../dynamicui/src/components/Anchor.tsx",
+    "../dynamicui/src/components/Badge.tsx",
+    "../dynamicui/src/components/Breadcrumb.tsx",
+    "../dynamicui/src/components/Button.tsx",
+    "../dynamicui/src/components/Card.tsx",
+    "../dynamicui/src/components/Cascader.tsx",
+    "../dynamicui/src/components/CheckBox.tsx",
+    "../dynamicui/src/components/Divider.tsx",
+    "../dynamicui/src/components/Dropdown.tsx",
+    "../dynamicui/src/components/Empty.tsx",
+    "../dynamicui/src/components/Icons.tsx",
+    "../dynamicui/src/components/Input.tsx",
+    "../dynamicui/src/components/Modal.tsx",
+    "../dynamicui/src/components/Navigation.tsx",
+    "../dynamicui/src/components/Progress.tsx",
+    "../dynamicui/src/components/Select.tsx",
+    "../dynamicui/src/components/Slider.tsx",
+    "../dynamicui/src/components/Spin.tsx",
+    "../dynamicui/src/components/Steps.tsx",
+    "../dynamicui/src/components/Switch.tsx",
+    "../dynamicui/src/components/Table.tsx",
+    "../dynamicui/src/components/Tabs.tsx",
+    "../dynamicui/src/components/Tag.tsx",
+    "../dynamicui/src/components/Timeline.tsx",
+    "../dynamicui/src/components/Transfer.tsx",
+    "../dynamicui/src/components/UploadArea.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

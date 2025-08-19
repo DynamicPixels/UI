@@ -1,0 +1,47 @@
+{
+  "name": "dynamicui-monorepo",
+  "version": "1.0.0",
+  "description": "DynamicUI - A comprehensive React UI library by DynamicPixels",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=packages/showcase",
+    "build": "npm run build --workspace=packages/dynamicui && npm run build --workspace=packages/showcase",
+    "build:lib": "npm run build --workspace=packages/dynamicui",
+    "build:showcase": "npm run build --workspace=packages/showcase",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "publish:lib": "npm run build:lib && npm publish --workspace=packages/dynamicui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dynamicpixels/dynamicui.git"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "typescript",
+    "dynamicpixels",
+    "dynamicui"
+  ],
+  "author": "DynamicPixels",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "react-syntax-highlighter": "^15.6.1"
+  }
+}

@@ -1,0 +1,36 @@
+# Next.js build outputs
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Production build
+build/
+
+# Environment files
+.env*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
