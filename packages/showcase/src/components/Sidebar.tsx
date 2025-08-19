@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
-import { Anchor, cn } from "@dynamicpixels/dynamicui";
+import { Anchor } from "@dynamicpixels/dynamicui";
 
 const documentationSections = [
   { id: "introduction", name: "Introduction", href: "#introduction" },
@@ -61,7 +61,7 @@ export function Sidebar() {
     const observer = new IntersectionObserver(
       (entries) => {
         // Find the most visible entry
-        let mostVisibleEntry: IntersectionObserverEntry | null = null;
+        let mostVisibleEntry: IntersectionObserverEntry | undefined;
         let maxRatio = 0;
 
         entries.forEach((entry) => {
