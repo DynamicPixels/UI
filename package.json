@@ -13,7 +13,9 @@
     "build:showcase": "npm run build --workspace=packages/showcase",
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
-    "publish:lib": "npm run build:lib && npm publish --workspace=packages/dynamicui"
+    "publish:lib": "npm run build:lib && npm publish --workspace=packages/dynamicui",
+    "postinstall": "npm run link:packages",
+    "link:packages": "cd packages/showcase && mkdir -p node_modules/@dynamicpixels && ln -sf ../../../dynamicui node_modules/@dynamicpixels/dynamicui"
   },
   "repository": {
     "type": "git",
