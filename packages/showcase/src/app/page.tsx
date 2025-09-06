@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import CodeBlock from "../components/CodeBlock";
 import ButtonSection from "../components/sections/ButtonSection";
 import InputSection from "../components/sections/InputSection";

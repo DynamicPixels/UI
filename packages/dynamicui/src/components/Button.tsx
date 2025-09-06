@@ -83,7 +83,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             ? "bg-transparent border border-dashed border-[color:var(--Neutral-gray-5)] text-[color:var(--Neutral-gray-8)] hover:bg-[color:var(--Neutral-gray-2)]"
             : "bg-white border border-dashed border-[color:var(--Neutral-gray-5)] text-[color:var(--Neutral-gray-8)] hover:bg-[color:var(--Neutral-gray-2)]";
         case "text":
-          return "bg-transparent text-white hover:bg-[color:var(--Neutral-gray-3)]";
+          return "bg-transparent text-white hover:bg-[color:var(--Neutral-gray-8)]";
         case "link":
           return "bg-transparent text-[color:var(--Blue-blue-6)] hover:text-[color:var(--Blue-blue-7)] underline";
         case "danger":

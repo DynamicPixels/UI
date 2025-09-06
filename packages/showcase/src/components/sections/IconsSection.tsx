@@ -1,15 +1,4 @@
 import React from "react";
-import {
-  MailIcon,
-  LockIcon,
-  XIcon,
-  SearchOutlined,
-  LeftOutlined,
-  RightOutlined,
-  DeleteOutlined,
-  InboxOutlined,
-  PaperClipOutlined,
-} from "@dynamicpixels/dynamicui";
 import CodeBlock from "../CodeBlock";
 
 const IconsSection = () => {

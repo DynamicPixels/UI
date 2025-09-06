@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button, Switch } from "@dynamicpixels/dynamicui";
-import { Zap, Github, Menu, X, Sun, Moon } from "lucide-react";
+import { Github, Menu, X, Sun, Moon } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export function Header() {
